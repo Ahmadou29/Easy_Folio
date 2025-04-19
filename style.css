@@ -1,0 +1,35 @@
+/* header */
+.nav-item a:hover{
+    color: rgb(255, 165, 0);
+}
+
+.nav-link .active:hover{
+    color: orange;
+}
+
+.nav-item a{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+    .nav-rounded {
+      border-radius: 1rem;
+    }
+  }
+
+  /* 🌘 Dark mode auto-detect */
+  @media (prefers-color-scheme: dark) {
+    .navbar {
+      background-color: #1e1e1e !important;
+    }
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+      color: #f1f1f1 !important;
+    }
+  }
