@@ -1,15 +1,47 @@
 /* header */
 .nav-item a:hover{
-    color: rgb(255, 165, 0);
+    color: orangered;
 }
 
+span{
+    color: orangered;
+}
 .nav-link .active:hover{
-    color: orange;
+    color: orangered;
 }
 
 .nav-item a{
     font-size: 18px;
 }
+
+#home{
+    background: #ffff;
+}
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.btn-2{
+    background-color: orangered !important;
+}
+
+.btn:hover{
+    background-color: orangered !important;
+    border: none;
+    color: #f1f1f1 !important;
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.btn-1{
+    border: 2px solid orangered !important;
+    margin-left: 20px;
+}
+
+
+
 
 
 
