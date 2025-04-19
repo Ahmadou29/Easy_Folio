@@ -39,10 +39,22 @@ span{
     border: 2px solid orangered !important;
     margin-left: 20px;
 }
+ 
 
 
+.progress-bar{
+    background-color: rgb(246, 177, 3) !important;
+}
 
+/*  */
+.light-background {
+    background-color: #faf9fb !important;
+    --surface-color: #ffffff;
+}
 
+#about .contente{
+    display: flex !important;
+}
 
 
 
